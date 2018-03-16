@@ -84,11 +84,11 @@ class NavBar extends React.Component {
                             <div className="wrapper clearfix">
                             
                                 <div id="burger" onClick={this.showMenu.bind(this)}>
-                                    <i className="fas fa-bars"></i>
+                                    <i class="fas fa-filter"></i>
                                 </div>
 
                                 <div onClick={this.logOut}>
-                                    <i className="fas fa-user-circle" id="user"></i>
+                                    <i className="fas fa-user" id="user"></i>
                                 </div>
 
                                 <div className="navLogo clearfix">
